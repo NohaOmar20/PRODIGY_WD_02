@@ -1,21 +1,28 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #2e3133;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
   
   h1 {
     font-size: 2.5rem;
-    color: #343a40;
+    color: #a0acb8;
   }
   
   .stopwatch-display {
     font-size: 2rem;
     font-weight: bold;
-    color: #495057;
+    color: #a0acb8;
   }
   
   .btn-group button {
     margin: 0 5px;
+    border-radius: 10;
   }
   
   #laps {
